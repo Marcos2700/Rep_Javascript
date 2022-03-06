@@ -1,0 +1,49 @@
+body{
+    background-color: darkslategray;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    color: ghostwhite;
+}
+#interface{
+    background-color: rgb(27, 34, 43);
+    border-style: ridge;
+    width: 17rem;
+    border-radius: 10%;
+}
+#salida{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    border-style: groove;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1em;
+}
+.number{
+    display: block;
+    border-style: groove;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 35%;
+    background-color: rgb(19, 20, 34);
+    color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: -moz-linear-gradient(linear, color-stop(100%, #aabbbf), color-stop(100%, #ffffff));
+    box-shadow: inset 0px 0px 6px rgb(70, 69, 78);
+    border: 1px solid #103042;
+    cursor: pointer;
+}
+.number:active{
+    transform: scale(0.9);
+    background-color: #aabbbf;
+    box-shadow: inset 2px 2px 22px 1px #aabbbf;
+}
+.operator{
+    display: block;
+    margin: auto;
+    padding: 1.25rem;
+    border-radius: 20%;
+    background-color: rgb(13, 0, 43);
+    color: rgb(207, 207, 207);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
