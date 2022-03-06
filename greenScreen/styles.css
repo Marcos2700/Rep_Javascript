@@ -1,0 +1,16 @@
+body{
+    background-color: #55727f;
+  }
+  h1{
+    color: #23f302;
+    font-family: "times new roman", sans;
+  }
+  canvas{
+    border: 1px solid;
+    border-color: black;
+    width: 500px;
+    height: 400px;
+  }
+  input{
+    font-family: "comic sans ms", sans serif;
+  }

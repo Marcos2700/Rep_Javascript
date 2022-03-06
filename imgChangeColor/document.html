@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image change color</title>
+    <meta content="text/html", charset="utf-8">
+    <link rel="stylesheet", href="styles.css">
+    <script type="text/javascript", src="Changes.js"></script>
+  </head>
+  <body>
+    <h1>Image filter</h1>
+    <canvas id="canv">
+    </canvas>
+    <h2>Upload an image</h2>
+    <p>
+      <input type="file" multiple="false" accept="image/*" id="inputf" onchange="uploadImg()">
+    </p>
+    <h2>Choose filter</h2>
+    <p>
+      <input type="button" value="Make grayscale" onclick="dogray()">
+      <input type="button" value="Make red" onclick="makered()">
+      <input type="button" value="Make rainbow" onclick="makerainbow()">
+      <input type="button" value="Make color switch" onclick="makeswitch()">
+      </p>
+      <p>
+      <input type="button" value="Reset image" onclick="reset()">
+    </p>
+  </body>
+</html>
